@@ -12,9 +12,9 @@ Write-Host "exception"
 
 try{
 Write-Host "enter number 1"  
-$num1 = Read-Host            #user input            
+[INT]$num1 = Read-Host            #user input            
 Write-Host "enter number 2"  
-$num2 = Read-Host           #user input          
+[INT]$num2 = Read-Host           #user input          
 }
 catch{
 Write-Host "Exception occured"
